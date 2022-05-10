@@ -1,1 +1,21 @@
-Zet hier de arduino code
+int LED = 2;
+
+void setup() { 
+  pinMode(Button, INPUT);
+   pinMode(LED, OUTPUT);
+  }  
+  
+  void loop() {   
+    digitalWrite(LED, HIGH);   
+    delay(700);   
+    digitalWrite(LED, LOW);   
+    delay(200);      
+    digitalWrite(LED, HIGH);   
+    delay(200);   
+    digitalWrite(LED, LOW);   
+    delay(200);    
+    digitalWrite(LED, HIGH);   
+    delay(200);  
+    digitalWrite(LED, LOW);   
+    delay(500); 
+    }
